@@ -44,7 +44,7 @@ This is a **controlled, isolated home lab** for educational purposes:
 - Both VMs owned and operated by the lab owner
 - Host-only network with no internet exposure
 - No client systems, no real data, no production environment
-- Standard penetration testing skillbuilding
+- Standard penetration testing skill-building
 
 ## What You'll Learn
 
@@ -56,12 +56,12 @@ This is a **controlled, isolated home lab** for educational purposes:
 
 ## Replication (High Level)
 
-1. Spin up two VirtualBox VMs on host-only network
+1. Spin up two VirtualBox VMs on a host-only network
 2. Configure Windows 7 target (no updates, build 7600)
-3. From Kali, run nmap against target
+3. From Kali, run nmap against the target
 4. Open msfconsole, search for eternalblue
 5. Set RHOSTS, set LHOST/LPORT, run
-6. Interact with resulting meterpreter session
+6. Interact with the resulting Meterpreter session
 7. Load kiwi, dump credentials
 
 **Note:** This exploits a 2017 vulnerability on EOL software. Do not use against systems you don't own.
@@ -70,8 +70,8 @@ This is a **controlled, isolated home lab** for educational purposes:
 
 - `README.md` — This file
 - `eternalblue-lab-writeup.md` — Detailed exploitation writeup
-- `screenshots/` — Supporting screenshots and nmap output
+- `screenshots/` — Supporting screenshots and Nmap output
 
 ---
 
-**Portfolio Context:** This lab demonstrates hands-on penetration testing skills relevant to SOC analyst, security engineer, and junior penetration testing roles. It shows understanding of vulnerability research, exploitation frameworks, and post-compromise analysis.
+**Portfolio Context:** This lab demonstrates hands-on penetration testing skills relevant to junior penetration testing, security engineering, and SOC analyst roles. It shows understanding of vulnerability research, exploitation frameworks, and post-compromise analysis.
